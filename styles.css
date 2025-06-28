@@ -84,7 +84,7 @@ button {
 }
 
 .section1 {
-    margin: 0 auto 10vh;
+    margin: 0 15vw 10vh;
 }
 
 .section1 h2 {
@@ -98,7 +98,7 @@ button {
 .multi-box{
     display: flex;
     justify-content: center;
-    gap: 75px;
+    gap: 50px;
     align-items: center;
 }
 
@@ -119,20 +119,35 @@ button {
 
 .section2 {
     background-color: #E5E7EB;
-    padding:  20vh 20vw;
+    padding:  15vh 15vw;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
-    text-align: center;
-    margin: 0 auto;
+    text-align: justify;
+    margin: 0 auto 20px;
 }
 
+.author {
+    text-align: right;
+    font-size: 18px;
+}
 
 .section3 .cta {
-    background-color: #3882F6
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin: 10vh 10vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px 
+}
+
+.cta-right button {
+    border: 2px #E5E7EB solid;
 }
 
 footer{
@@ -141,4 +156,6 @@ footer{
 
 footer p {
     color: #E5E7EB;
+    padding: 50px;
+    text-align: center;
 }
